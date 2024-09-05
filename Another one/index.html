@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyStroke Tester</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="header">
+            <h1 class="title">Key Stroke Tester</h1>
+
+            <!-- difficulty level -->
+            <div class="limits">
+                <a href="#" id="thirtySeconds" class="limit">30s</a>
+                <a href="#" id="sixtySeconds" class="limit">60s</a>
+                <a href="#" id="beg" class="limit">Beginner</a>
+                <a href="#" id="pro" class="limit">Pro</a>
+
+            </div>
+        </div>
+
+
+        <div class="stats">
+            <div class="cpm">
+                <div class="stat-name">CPM</div>
+                <div class="stat-value" id="cpm">0</div>
+            </div>
+
+            <div class="time">
+                <div class="stat-name">Time-Left</div>
+                <div class="stat-value" id="time">30</div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="paragraph" id="Para"></div>
+
+    <div class="input-area">
+        <textarea placeholder="Start Typing here..." class="text-input" id="textInput" autofocus autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
+    </div>
+
+    <div class="restart">
+        <a href="#" id="RestartBtn" class="current">
+            <i class="fas"></i>
+        </a>
+    </div>
+
+    <footer>
+        <!-- add footer -->
+    </footer>
+
+
+
+    <!-- scripts -->
+     <script src="logic.js"></script>
+</body>
+</html>

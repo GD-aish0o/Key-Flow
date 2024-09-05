@@ -1,0 +1,26 @@
+/* monserrat from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    background: #212121;
+}
+
+body {
+    font-family: 'monsterrat',Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #212121;
+    color: #52575d;
+}
+
+a{
+    color: #52575d;
+    text-decoration: none;
+}
+
+a:hover, a:focus{
+    color: #ffd369;
+    text-decoration: none;
+}
+
+.yellow
